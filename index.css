@@ -1,0 +1,48 @@
+table,
+tr,
+td,th {
+    border: 1px solid black;
+}
+
+table {
+    /* alapértelmezetten border-collapse: separate; */
+    border-collapse: collapse;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 900px;
+    margin:auto;
+    margin-top:32px;
+}
+
+td, th {
+    padding: 16px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+tr {
+    background-color:cornsilk;
+}
+
+tr:nth-child(2){
+    background-color: cadetblue;
+}
+
+tr:nth-child(even){
+
+    background-color: rgb(187, 183, 176);
+}
+
+tr:nth-child(odd){
+
+    background-color: rgb(244, 244, 145);
+}
+
+th {
+    background-color: cadetblue;
+}
+
+caption{
+    padding-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
