@@ -1,0 +1,52 @@
+td,
+tr,
+th,
+table {
+    border: solid 1px white;
+    background-color: rgb(135, 132, 127);
+}
+
+table {
+    border-collapse:collapse;
+    margin:auto;
+    max-width: 900px;
+    width:100%;
+    margin-top:30px;
+}
+
+td, th {
+    padding:16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+th {
+    color: white;
+    background-color: brown;
+}
+
+td {
+    color: black;
+}
+
+td:nth-child(6){
+
+    background-color: rgb(162, 159, 154);
+}
+
+td:nth-child(8){
+
+    background-color: rgb(162, 159, 154);
+}
+
+td:nth-child(20){
+
+    background-color: rgb(162, 159, 154);
+}
+
+
+caption {
+ text-transform: uppercase;
+ padding-bottom: 20px;
+ font-weight: 700;
+}

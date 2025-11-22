@@ -1,0 +1,39 @@
+
+
+
+
+table {
+    border-collapse:collapse;
+    max-width: 900px;
+    margin:30px auto;
+}
+
+
+
+td {
+
+    width: 60px;
+    height: 60px;
+}
+
+
+
+  /* Színek váltakozása */
+  tr:nth-child(even) td:nth-child(odd),
+  tr:nth-child(odd) td:nth-child(even) {
+    background-color: #000000; /* sötét */
+  }
+  tr:nth-child(even) td:nth-child(even),
+  tr:nth-child(odd) td:nth-child(odd) {
+    background-color: #ffffff; /* világos */
+  }
+
+
+
+caption {
+ text-transform: uppercase;
+ padding-bottom: 20px;
+ font-weight: 700;
+}
+
+
